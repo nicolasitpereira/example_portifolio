@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, portifolio, Projeto">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Página voltada para a aprendizagem da tecnologia HTML5 & CSS3">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="author" content="Nicolas Caua Alves Pereira">
+    <meta name="robots" content="index, all">
+
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <img src="img/foto.jpeg" alt="Foto de [Nicolas]" class="profile-pic">
+            <div class="about-text">
+                <h1>Olá, Eu Sou Nicolas</h1>
+                <p>Sou um desenvolvedor web iniciante com paixão por criar soluções eficientes e criativas. Tenho experiência em HTML5, CSS3, e JavaScript, e estou constantemente aprendendo novas tecnologias para melhorar minhas habilidades.</p>
+                <p>Este portfólio contém alguns dos meus projetos e as habilidades que adquiri ao longo do tempo. Espero que goste do que vê!</p>
+                <a href="#contact" class="btn">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="" alt="Projeto 1" class="project-img">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1. <a href="#">Ver mais</a></p>
+            </div>
+            <div class="project-card">
+                <img src="projeto2.jpg" alt="Projeto 2" class="project-img">
+                <h3>Projeto 2</h3>
+                <p>Descrição do Projeto 2. <a href="#">Ver mais</a></p>
+            </div>
+            <div class="project-card">
+                <img src="projeto3.jpg" alt="Projeto 3" class="project-img">
+                <h3>Projeto 3</h3>
+                <p>Descrição do Projeto 3. <a href="#">Ver mais</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Git e GitHub</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contato</h2>
+        <div class="contact-container">
+            <p>Entre em contato através do email: <a href="mailto:email@exemplo.com">nicolas.pereira.it@gmail.com</a></p>
+            <p>Ou me siga nas redes sociais:</p>
+            <ul class="social-list">
+                <li><a href="https://www.linkedin.com/in/nicolas-pereira-144b7631b/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/nicolasitpereira" target="_blank">GitHub</a></li>
+                <li><a href="https://www.instagram.com/nicolasz_bn?igsh=d3ZemMyNTg1OTky" target="_blank">Instagram</a></li>
+            </ul>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Seu Nome]. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
